@@ -18,9 +18,15 @@ function returnInput(input) {
   } else {
     output = "scissors";
   }
-
   return output;
 }
+
+// rockPaperScissors
+//this function is an algorithm because it uses selection through if, else statements, selection is necessary to assign it something
+//Uses sequences since it calls a few functions that will run in a specific order
+//Uses iteration since it uses for loops, so that you can play more than once
+//It assigns random values to a variable, and tests if its divisible by certain numbers, and uses that to assign it rock, paper or scissors
+//Based on the input, it could be a win, lose or draw 
 
 function rockPaperScissors(input) {
   const random = Math.floor(Math.random() * 100);

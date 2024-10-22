@@ -17,3 +17,4 @@ for(let i =1; i<=n; i++) {
 return result
 }
 console.log(factorial(10))
+
